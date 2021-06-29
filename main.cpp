@@ -45,7 +45,7 @@ public:
 };
 
 void LinkedList::PrintList(){
-    Node currentNode = firstNode; // is directly equal to (same location in memory)
+    Node currentNode = firstNode; // is directly equal to (same location in memory for pointers)
     cout << currentNode.nodeChar << endl;
     do{
         currentNode = currentNode.nodePtr;
